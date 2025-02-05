@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@nextui-org/system": "^2.4.5",
+    "@nextui-org/theme": "^2.4.4",
+    "child_process": "^1.0.2",
+    "classnames": "^2.5.1",
+    "framer-motion": "^11.15.0",
+    "moment": "^2.30.1",
+    "mongodb": "^6.11.0",
+    "net": "^1.0.2",
+    "next": "latest",
+    "react": "^18.3.1",
+    "react-date-picker": "^11.0.0",
+    "react-dom": "^18.3.1",
+    "style-loader": "^4.0.0",
+    "styled-components": "^6.1.13",
+    "tailwindcss": "^3.4.17",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "@zeit/next-css": "^1.0.1",
+    "copy-webpack-plugin": "^6.3.1",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.9.2",
+    "next-images": "^1.8.5",
+    "typescript": "^5.6.2"
+  },
+  "browser": {
+    "child_process": false
+  }
+}
