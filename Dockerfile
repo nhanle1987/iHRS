@@ -9,9 +9,8 @@ ENV DB_NAME points
 ENV COL_NAME dataPoints
 
 RUN yarn
-
 COPY . .
 
-RUN npm run build
+RUN yarn run build
 
-CMD ["npm", "run", "start"]
+CMD ["yarn", "run", "dev"]

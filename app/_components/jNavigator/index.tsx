@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { I08em } from '../styled';
 
-import Logo from '@/template/assets/img/bootstraper-logo.png';
+// import Logo from '@/template/assets/img/bootstraper-logo.png';
 import Link from 'next/link';
 
 export const TopNavigator = () => {
@@ -59,11 +59,6 @@ export const SideNavigator = () => {
     <>
       <nav id="sidebar" className="active">
         <div className="sidebar-header">
-          {/* <img src="assets/img/bootstraper-logo.png" alt="bootraper logo" className="app-logo" /> */}
-          <img
-            src={Logo.src}
-            className="app-logo"
-          />
         </div>
         <ul className="list-unstyled components text-secondary">
           <li>
