@@ -1,6 +1,5 @@
 import Link from 'next/link';
-
-import { userService } from 'services';
+import { userService } from '../services';
 
 export default Home;
 

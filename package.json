@@ -18,8 +18,9 @@
     "react": "^18.3.1",
     "react-date-picker": "^11.0.0",
     "react-dom": "^18.3.1",
+    "rxjs": "^7.8.1",
     "style-loader": "^4.0.0",
-    "styled-components": "^6.1.13",
+    "styled-components": "^6.1.15",
     "tailwindcss": "^3.4.17",
     "uniqid": "^5.4.0"
   },
